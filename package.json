@@ -1,0 +1,33 @@
+{
+  "name": "calendar_date_calculator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/venkateswarlu9502/Calendar-date-calculator.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/venkateswarlu9502/Calendar-date-calculator/issues"
+  },
+  "homepage": "https://github.com/venkateswarlu9502/Calendar-date-calculator#readme",
+  "dependencies": {
+    "chai": "^4.3.7",
+    "mocha": "^10.1.0",
+    "nyc": "^15.1.0"
+  },
+  "devDependencies": {
+    "isparta": "^4.1.1"
+  },
+  "scripts": {
+    "test": "mocha test",
+    "coverage": "nyc --reporter=lcov --reporter=text npm run test"
+  }
+ 
+}
